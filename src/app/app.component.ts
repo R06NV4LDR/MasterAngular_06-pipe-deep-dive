@@ -1,6 +1,8 @@
+import { DatePipe, DecimalPipe } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
+  imports: [DatePipe, DecimalPipe],
   selector: 'app-root',
   standalone: true,
   templateUrl: './app.component.html',
